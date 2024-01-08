@@ -1,5 +1,5 @@
-#ifndef _KULLANÝCÝ_H
-#define _KULLANÝCÝ_H
+#ifndef _KULLANICI_H
+#define _KULLANICI_H
 
 typedef struct Kullanici{
 	char tel[10];
@@ -18,4 +18,4 @@ void listele();
 void tumKayitlariSil();
 void veriTabaniKayit(kullanici k1);
 void girisAl(char *);
-#endif _KULLANÝCÝ_H
+#endif _KULLANICI_H
